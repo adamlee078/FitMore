@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">FitMore</string>
+    <string name="title_start_training">開始訓練</string>
+    <string name="title_plan">訓練計畫</string>
+    <string name="title_training_record">訓練紀錄</string>
+    <string name="title_body_record">身體紀錄</string>
+    <string name="title_setting">設定</string>
+
+    <string name="tab_routine">按表操課</string>
+    <string name="tab_single">單次訓練</string>
+
+    <string name="training_title">訓練項目</string>
+    <string name="weights">訓練重量</string>
+    <string name="reps">組次數</string>
+    <string name="sets">組數</string>
+    <string name="per_set_of_time">組訓練時間</string>
+    <string name="per_rest_of_time">組間隔休息時間</string>
+    <string name="kg">公斤</string>
+    <string name="pound">磅</string>
+    <string name="reps_num">次</string>
+    <string name="sets_num">組</string>
+    <string name="min">分</string>
+    <string name="sec">秒</string>
+    <string name="reset">重新\n設定</string>
+    <string name="prepare_start">準備\n開始</string>
+    <string name="cancel">取消</string>
+    <string name="start">開始</string>
+    <string name="pause">暫停</string>
+    <string name="training">訓練組數</string>
+    <string name="rest">間隔休息</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment1">Hello blank fragment1</string>
+    <string name="hello_blank_fragment2">Hello blank fragment2</string>
+    <string name="hello_blank_fragment3">Hello blank fragment3</string>
+    <string name="hello_blank_fragment4">Hello blank fragment4</string>
+    <string name="hello_blank_fragment5">Hello blank fragment5</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".user_interface.fragment.SingleTrainingContentFragment">
+    <TextView
+        android:id="@+id/txtTrainingTitle"
+        style="@style/TextViewStyle_1"
+        android:text="@string/training_title"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtWeights"
+        style="@style/TextViewStyle_1"
+        android:text="@string/weights"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtTrainingTitle" />
+
+    <TextView
+        android:id="@+id/txtReps"
+        style="@style/TextViewStyle_1"
+        android:text="@string/reps"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtWeights"/>
+
+    <TextView
+        android:id="@+id/txtSets"
+        style="@style/TextViewStyle_1"
+        android:text="@string/sets"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtReps"/>
+
+    <TextView
+        android:id="@+id/txtPerSetOfTime"
+        style="@style/TextViewStyle_1"
+        android:text="@string/per_set_of_time"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtSets"/>
+
+    <TextView
+        android:id="@+id/txtPerRestOfTime"
+        style="@style/TextViewStyle_1"
+        android:text="@string/per_rest_of_time"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtPerSetOfTime"/>
+
+    <android.support.v7.widget.AppCompatAutoCompleteTextView
+        android:id="@+id/autoCompleteTxtTitle"
+        style="@style/EditTextStyle_1"
+        android:text="預設項目1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBaseline_toBaselineOf="@id/txtTrainingTitle" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/txtKg"-->
+        <!--style="@style/TextViewStyle_1"-->
+        <!--android:text="@string/kg"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintBaseline_toBaselineOf="@id/txtWeights"/>-->
+
+    <Spinner
+        android:id="@+id/spnWeightUnit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_spinner_drop_down"
+        android:popupBackground="@drawable/bg_spn_pop"
+        android:spinnerMode="dropdown"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBaseline_toBaselineOf="@id/txtWeights"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="18dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:id="@+id/txtRepTimes"
+        style="@style/TextViewStyle_6"
+        android:text="@string/reps_num"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spnWeightUnit"
+        app:layout_constraintBaseline_toBaselineOf="@id/txtReps"/>
+
+    <TextView
+        android:id="@+id/txtSetTimes"
+        style="@style/TextViewStyle_6"
+        android:text="@string/sets_num"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtRepTimes"
+        app:layout_constraintBaseline_toBaselineOf="@id/txtSets"/>
+
+    <TextView
+        android:id="@+id/txtPerSetOfTimeSec"
+        style="@style/TextViewStyle_6"
+        android:text="@string/sec"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSetTimes"
+        app:layout_constraintBaseline_toBaselineOf="@id/txtPerSetOfTime"/>
+
+    <TextView
+        android:id="@+id/txtPerRestOfTimeSec"
+        style="@style/TextViewStyle_6"
+        android:text="@string/sec"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPerSetOfTimeSec"
+        app:layout_constraintBaseline_toBaselineOf="@id/txtPerRestOfTime"/>
+
+    <EditText
+        android:id="@+id/edtWeights"
+        style="@style/EditTextStyle_2"
+        android:layout_marginRight="0dp"
+        android:text="0"
+        app:layout_constraintRight_toLeftOf="@id/spnWeightUnit"
+        app:layout_constraintBaseline_toBaselineOf="@id/txtWeights" />
+
+    <EditText
+        android:id="@+id/edtReps"
+        style="@style/EditTextStyle_2"
+        android:text="0"
+        app:layout_constraintRight_toLeftOf="@id/txtRepTimes"
+        app:layout_constraintTop_toBottomOf="@id/edtWeights"
+        app:layout_constraintBaseline_toBaselineOf="@id/txtReps" />
+
+    <EditText
+        android:id="@+id/edtSets"
+        style="@style/EditTextStyle_2"
+        android:text="1"
+        app:layout_constraintRight_toLeftOf="@id/txtSetTimes"
+        app:layout_constraintTop_toBottomOf="@id/edtReps"
+        app:layout_constraintBaseline_toBaselineOf="@id/txtSets" />
+
+    <EditText
+        android:id="@+id/edtPerSetOfTimeSec"
+        style="@style/EditTextStyle_3"
+        android:text="0"
+        app:layout_constraintRight_toLeftOf="@id/txtPerSetOfTimeSec"
+        app:layout_constraintTop_toBottomOf="@id/edtSets"
+        app:layout_constraintBaseline_toBaselineOf="@id/txtPerSetOfTime" />
+
+    <EditText
+        android:id="@+id/edtPerRestOfTimeSec"
+        style="@style/EditTextStyle_3"
+        android:text="0"
+        app:layout_constraintRight_toLeftOf="@id/txtPerRestOfTimeSec"
+        app:layout_constraintTop_toBottomOf="@id/edtPerSetOfTimeSec"
+        app:layout_constraintBaseline_toBaselineOf="@id/txtPerRestOfTime" />
+
+    <TextView
+        android:id="@+id/txtPerSetOfTimeMin"
+        style="@style/TextViewStyle_7"
+        android:text="@string/min"
+        app:layout_constraintRight_toLeftOf="@id/edtPerSetOfTimeSec"
+        app:layout_constraintTop_toBottomOf="@+id/edtSets"
+        app:layout_constraintBaseline_toBaselineOf="@id/txtPerSetOfTime"/>
+
+    <TextView
+        android:id="@+id/txtPerRestOfTimeMin"
+        style="@style/TextViewStyle_7"
+        android:text="@string/min"
+        app:layout_constraintRight_toLeftOf="@id/edtPerRestOfTimeSec"
+        app:layout_constraintTop_toBottomOf="@+id/txtPerSetOfTimeMin"
+        app:layout_constraintBaseline_toBaselineOf="@id/txtPerRestOfTime"/>
+
+    <EditText
+        android:id="@+id/edtPerSetOfTimeMin"
+        style="@style/EditTextStyle_3"
+        android:text="0"
+        app:layout_constraintRight_toLeftOf="@id/txtPerSetOfTimeMin"
+        app:layout_constraintTop_toBottomOf="@id/edtSets"
+        app:layout_constraintBaseline_toBaselineOf="@id/txtPerSetOfTime" />
+
+    <EditText
+        android:id="@+id/edtPerRestOfTimeMin"
+        style="@style/EditTextStyle_3"
+        android:text="0"
+        app:layout_constraintRight_toLeftOf="@id/txtPerRestOfTimeMin"
+        app:layout_constraintTop_toBottomOf="@id/edtPerSetOfTimeMin"
+        app:layout_constraintBaseline_toBaselineOf="@id/txtPerRestOfTime" />
+
+    <Button
+        android:id="@+id/btnRest"
+        style="@style/ButtonStyle_1"
+        android:text="@string/reset"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <Button
+        android:id="@+id/btnPrepareStart"
+        style="@style/ButtonStyle_2"
+        android:text="@string/prepare_start"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

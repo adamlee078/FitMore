@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#edeaea</color>
+    <color name="colorBackgroundGrey">#1c1c1c</color>
+    <color name="colorPrimary">#383737</color>
+    <color name="colorFontWhite">#FFFFFF</color>
+    <color name="colorFontGrey">#edeaea</color>
+    <color name="colorFontTiffanyGreen">#00CED1</color>
+    <color name="colorBtnBgHalfTransTiffGreen">#3C00CED1</color>
+    <color name="colorFontOrange">#FF7200</color>
+    <color name="colorBtnBgHalfTransOrange">#3CFF7200</color>
+    <color name="colorBtnBgHalfTransWhite">#3CFFFFFF</color>
+    <color name="colorFontGreen">#10ED10</color>
+    <color name="colorBtnBgHalfTransGreen">#3C10ED10</color>
+    <color name="colorFontRed">#FF3333</color>
+    <color name="colorBtnBgHalfTransRed">#1FFF3333</color>
+    <color name="ss">#00CED1</color>
+    <color name="ssh">#1f00CED1</color>
+    <color name="aa">#ff3333</color>
+    <color name="aah">#1fff3333</color>
+</resources>

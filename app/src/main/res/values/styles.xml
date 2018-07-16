@@ -1,0 +1,203 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ToolbarTitle">
+        <item name="android:textColor">@color/colorFontWhite</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:fontFamily">@font/font_family_berkshireswash_regular</item>
+    </style>
+    
+    <style name="TextViewStyle_1">
+        <item name="android:textColor">@color/colorFontWhite</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">18dp</item>
+        <item name="android:layout_marginBottom">18dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+    </style>
+
+    <style name="TextViewStyle_2">
+        <item name="android:textColor">@color/colorFontWhite</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+    </style>
+
+    <style name="TextViewStyle_3">
+        <item name="android:textColor">@color/colorFontWhite</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+
+    <style name="TextViewStyle_4">
+        <item name="android:textColor">@color/colorFontWhite</item>
+        <item name="android:textSize">100sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">90dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+    </style>
+
+    <style name="TextViewStyle_5">
+        <item name="android:textColor">@color/colorFontWhite</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">90dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+    </style>
+
+    <style name="TextViewStyle_6">
+        <item name="android:textColor">@color/colorFontWhite</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">18dp</item>
+        <item name="android:layout_marginBottom">18dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">35dp</item>
+    </style>
+
+    <style name="TextViewStyle_7">
+        <item name="android:textColor">@color/colorFontWhite</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">18dp</item>
+        <item name="android:layout_marginBottom">18dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+
+    <style name="EditTextStyle_1">
+        <item name="android:textColor">@color/colorFontWhite</item>
+        <item name="android:background">@drawable/bg_edittext</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:inputType">text</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">18dp</item>
+        <item name="android:layout_marginBottom">18dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+
+    <style name="EditTextStyle_2">
+        <item name="android:textColor">@color/colorFontWhite</item>
+        <item name="android:background">@drawable/bg_edittext</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:inputType">number</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:gravity">center_horizontal|right</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">18dp</item>
+        <item name="android:layout_marginBottom">18dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="EditTextStyle_3">
+        <item name="android:textColor">@color/colorFontWhite</item>
+        <item name="android:background">@drawable/bg_edittext</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:inputType">number</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:gravity">center_horizontal|right</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:layout_width">35dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">18dp</item>
+        <item name="android:layout_marginBottom">18dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+
+
+    <style name="ButtonStyle_1">
+        <item name="android:textColor">@color/colorFontTiffanyGreen</item>
+        <item name="android:background">@drawable/bg_button_tiffgreen</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_marginRight">50dp</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:layout_marginBottom">145dp</item>
+    </style>
+
+    <style name="ButtonStyle_2">
+        <item name="android:textColor">@color/colorFontOrange</item>
+        <item name="android:background">@drawable/bg_button_orange</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_marginRight">50dp</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:layout_marginBottom">145dp</item>
+    </style>
+
+    <style name="ButtonStyle_3">
+        <item name="android:textColor">@color/colorFontWhite</item>
+        <item name="android:background">@drawable/bg_button_white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_marginRight">50dp</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:layout_marginBottom">145dp</item>
+    </style>
+
+    <style name="ButtonStyle_4">
+        <item name="android:textColor">@color/colorFontGreen</item>
+        <item name="android:background">@drawable/bg_button_green</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_marginRight">50dp</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:layout_marginBottom">145dp</item>
+    </style>
+
+    <style name="ButtonStyle_5">
+        <item name="android:textColor">@color/colorFontRed</item>
+        <item name="android:background">@drawable/bg_button_red</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_marginRight">50dp</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:layout_marginBottom">145dp</item>
+    </style>
+
+    <style name="SpinnerStyle">
+        <item name="colorControlNormal">@color/colorFontWhite</item> <!--改变了spinner的颜色  -->
+    </style>
+
+
+</resources>
